@@ -1,4 +1,4 @@
-# ITES
+# Invariant Teacher and Equivariant Student (ITES)
 This repository contains the implementation of the AAAI2021 paper named: Invariant Teacher and Equivariant Student for Unsupervised 3D Human Pose Estimation. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16409)
 
 <p align="center"><img src="img/vis.gif" width="90%" alt="" /></p>
