@@ -1,7 +1,7 @@
 # ITES
 This repository contains the implementation of the AAAI2021 paper named: Invariant Teacher and Equivariant Student for Unsupervised 3D Human Pose Estimation. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16409)
 
-![](https://github.com/sjtuxcx/ITES/tree/master/img/vis.gif)
+<p align="center"><img src="img/vis.gif" width="80%" alt="" /></p>
 
 
 Abstract: We propose a novel method based on teacher-student learning framework for 3D human pose estimation without any 3D annotation or side information. To solve this unsupervised-learning problem, the teacher network adopts pose-dictionary-based modeling for regularization to estimate a physically plausible 3D pose. To handle the decomposition ambiguity in the teacher network, we propose a cycle-consistent architecture promoting a 3D rotation-invariant property to train the teacher network. To further improve the estimation accu- racy, the student network adopts a novel graph convolution network for flexibility to directly estimate the 3D coordinates. Another cycle-consistent architecture promoting 3D rotation-equivariant property is adopted to exploit geometry consistency, together with knowledge distillation from the teacher network to improve the pose estimation performance. We conduct extensive experiments on Human3.6M and MPI-INF-3DHP. Our method reduces the 3D joint prediction error by 11.4% compared to state-of-the-art unsupervised methods and also outperforms many weakly-supervised methods that use side information on Human3.6M.
